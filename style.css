@@ -13,6 +13,7 @@
 .navbar {
   padding-top: 15px;
   background-color: white;
+  margin-bottom: 10px;
 }
 
 .my-colLeft a {
@@ -29,11 +30,37 @@
   margin-left: 20px;
 }
 
-.my-colRight a:hover {
+.list-inline a:hover {
   text-decoration: none;
 }
 
 .my-colLeft a:hover {
   text-decoration: none;
   color: #0F72FF;
+}
+
+.logoDigitalOcean {
+  width: 200px;
+}
+
+.my-navbar {
+  padding-top: 0;
+}
+
+.my-list a {
+  margin-left: 25px;
+  color: #031b4e;
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+.my-btn {
+  border-color: #0F72FF;
+  color: #0F72FF;
+  font-weight: bold;
+}
+
+.my-btn:hover {
+ color: white;
+ background-color: #0F72FF;
 }
