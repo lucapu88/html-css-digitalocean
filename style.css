@@ -13,7 +13,8 @@
 .navbar {
   padding-top: 15px;
   background-color: white;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 .my-colLeft a {
@@ -44,7 +45,7 @@
 }
 
 .my-navbar {
-  padding-top: 0;
+  margin-top: 0;
 }
 
 .my-list a {
@@ -63,4 +64,14 @@
 .my-btn:hover {
  color: white;
  background-color: #0F72FF;
+}
+
+.my-visible-hamburger {
+  padding: 20px;
+  font-size: 20px;
+}
+/* fine header */
+.jumbo {
+  height: 900px;
+  background-color: #0049FF;
 }
