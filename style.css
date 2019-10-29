@@ -1,3 +1,39 @@
 .row {
   margin-right: 0;
   margin-left: 0;
+}
+
+/* inizio header */
+.my-label {
+  padding: 3px 7px;
+  background-color: #00D7D2;
+  color: darkblue;
+}
+
+.navbar {
+  padding-top: 15px;
+  background-color: white;
+}
+
+.my-colLeft a {
+  color: #7B879F;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.my-colRight a {
+  color: #7B879F;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.my-colRight a:hover {
+  text-decoration: none;
+}
+
+.my-colLeft a:hover {
+  text-decoration: none;
+  color: #0F72FF;
+}
