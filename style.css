@@ -70,8 +70,17 @@
   padding: 20px;
   font-size: 20px;
 }
+
+.imglogo:hover {
+  cursor: pointer;
+}
 /* fine header */
 .jumbo {
+  padding-top: 150px;
   height: 900px;
   background-color: #0049FF;
+}
+
+.my-greenContainer {
+  background-color: #00AF7A;
 }
