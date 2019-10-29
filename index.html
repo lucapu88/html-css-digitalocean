@@ -10,8 +10,8 @@
   </head>
   <body>
     <header>
-      <nav class=" navbar-fixed-top">
-        <nav class="navbar navbar-default">
+      <nav class="navbar-fixed-top">
+        <nav class="navbar navbar-default hidden-sm hidden-xs">
           <div class="container-fluid">
             <div class="row col-xs-6 col-md-6 text-left my-colLeft">
               <span class="my-label label label-info">NEW</span>
@@ -27,7 +27,13 @@
             </div>
           </div>
         </nav>
-        <nav class="navbar my-navbar">
+        <div class="my-visible-hamburger text-right hidden-lg hidden-md">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="my-visible-logo text-left hidden-lg hidden-md">
+          <img class="img-responsive logoDigitalOcean" src="https://opensource.org/files/DO_Logo.png" alt="digital Ocean Logo">
+        </div>
+        <nav class="navbar my-navbar hidden-sm hidden-xs">
           <div class="container-fluid">
             <div class="row col-xs-2 col-md-2">
               <img class="img-responsive logoDigitalOcean" src="https://opensource.org/files/DO_Logo.png" alt="digital Ocean Logo">
