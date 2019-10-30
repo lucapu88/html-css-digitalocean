@@ -75,12 +75,84 @@
   cursor: pointer;
 }
 /* fine header */
+/* inizio jumbo */
 .jumbo {
   padding-top: 150px;
   height: 900px;
-  background-color: #0049FF;
+  background-color: #0080FF
 }
 
 .my-greenContainer {
   background-color: #00AF7A;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.my-greenContainer:hover {
+  cursor: pointer;
+}
+
+.welcome {
+  margin-top: 100px;
+  padding-right: 140px;
+  font-size: 20px;
+  color: white;
+}
+
+.createAccount {
+  background-color: white;
+  border-radius: 5px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.my-input {
+  width: 80%;
+  display: inline-block;
+}
+
+.my-button {
+  padding-left: 20%;
+  padding-right: 20%;
+  max-width: 100%;
+}
+
+.singUp {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.singUp::before {
+  content: '';
+  display: inline-block;
+  width: 35%;
+  height: 1px;
+  background-color: lightgrey;
+  position: absolute;
+  left: 0;
+  top: 11px;
+}
+
+.singUp::after {
+  content: '';
+  display: inline-block;
+  width: 35%;
+  height: 1px;
+  background-color: lightgrey;
+  position: absolute;
+  right: 0;
+  top: 11px;
+}
+
+.my-googleBtn img {
+  width: 20px;
+  float: left;
+}
+
+.my-googleBtn {
+  width: 110px;
+  background-color: #f2f8ff;
 }
