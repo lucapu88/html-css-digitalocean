@@ -10,6 +10,10 @@
   color: darkblue;
 }
 
+.my-label:hover {
+  cursor: default;
+}
+
 .navbar {
   padding-top: 15px;
   background-color: white;
@@ -250,3 +254,4 @@ font-size: 50px;
   display: inline-block;
 }
 /* fine designed-for */
+/* inizio built */
