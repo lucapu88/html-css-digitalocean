@@ -208,3 +208,33 @@ font-size: 50px;
   border-left: 2px solid #0069FF;
   color: #031b4e;
 }
+
+.square1,.square2 {
+  height: 270px;
+}
+
+.square1,.square2 h3 {
+  color: #031b4e;
+}
+
+.fa-2x {
+  color: #0069FF;
+}
+
+.my-font-little {
+  font-size: 15px;
+  color: rgba(3,27,78,.7);
+}
+/* fine deploy */
+/* inizio designed-for */
+.grab {
+  padding: 50px;
+}
+
+.grab:hover {
+  cursor: grab;
+}
+
+.arrow {
+  margin-top: 35%;
+}
