@@ -217,7 +217,7 @@ font-size: 50px;
   color: #031b4e;
 }
 
-.fa-2x {
+.lightblue-icon {
   color: #0069FF;
 }
 
@@ -228,7 +228,7 @@ font-size: 50px;
 /* fine deploy */
 /* inizio designed-for */
 .grab {
-  padding: 50px;
+  padding: 50px 10px;
 }
 
 .grab:hover {
@@ -238,3 +238,15 @@ font-size: 50px;
 .arrow {
   margin-top: 35%;
 }
+
+.arrow:hover {
+  color: #0069FF;
+  cursor: pointer;
+}
+
+.dots {
+  font-size: 8px;
+  padding: 3px;
+  display: inline-block;
+}
+/* fine designed-for */
