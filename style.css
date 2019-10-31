@@ -83,7 +83,7 @@
 .jumbo {
   padding-top: 150px;
   padding-bottom: 50px;
-  background-color: #0080FF
+  background-color: #0080FF;
 }
 
 .my-greenContainer {
@@ -253,7 +253,7 @@ font-size: 50px;
   padding: 50px 10px;
 }
 
-.grab:hover {
+.grab,.contain-rocker:hover {
   cursor: grab;
 }
 
@@ -282,6 +282,8 @@ font-size: 50px;
 .service-your-customers {
   background-color: #031B4E;
   color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .my-tabel {
@@ -296,11 +298,65 @@ font-size: 50px;
 }
 
 .testSpeed {
-  float: right;
+  text-align: right;
   color: #00d7d2;
 }
 
 .testSpeed:hover {
   cursor: pointer;
   color: #005EE3;
+}
+/* fine service-your-customers */
+/* inizio Development teams  */
+.Development {
+  padding-bottom: 100px;
+}
+
+.contain-rocker {
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.rockerimg {
+  padding: 20px;
+  width: 200px;
+  margin-left: 35%;
+}
+
+.arrow2 {
+  margin-top: 30%;
+}
+
+.ateams {
+  text-decoration: underline;
+  color: #005EE3;
+}
+
+.ateams:hover {
+  color: #005EE3;
+}
+/* fine Development teams  */
+/* inizio getStarted */
+.getStarted {
+  background-color: #0080FF;
+  padding: 50px 0px;
+  color: white;
+}
+
+.my-btn-opacity {
+  color: #005EE3;
+  font-weight: bold;
+  padding: 10px 25px;
+}
+
+.my-btn-opacity:hover {
+  color: #005EE3;
+  opacity: 0.9;
+}
+/* fine getStarted */
+footer {
+  background-color: #010E28;
 }
