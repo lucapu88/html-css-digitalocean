@@ -359,4 +359,33 @@ font-size: 50px;
 /* fine getStarted */
 footer {
   background-color: #010E28;
+  padding: 100px 0px;
+  color: white;
+}
+
+.footer-container {
+  margin-left: 50px;
+}
+
+.footer-list {
+  color: white;
+  opacity: 0.5;
+  list-style: none;
+  line-height: 1.8;
+}
+
+.footer-list:hover {
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-logo {
+  width: 50px;
+}
+
+.copyright {
+  margin-top: 50px;
+  border-top: 1px solid white;
+  opacity: 0.5;
 }
