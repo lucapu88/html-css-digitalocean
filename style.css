@@ -273,3 +273,34 @@ font-size: 50px;
 }
 /* fine designed-for */
 /* inizio built */
+.built {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+/* fine built */
+/* inizio service-your-customers */
+.service-your-customers {
+  background-color: #031B4E;
+  color: white;
+}
+
+.my-tabel {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+}
+
+.city {
+  opacity: 0.6;
+}
+
+.testSpeed {
+  float: right;
+  color: #00d7d2;
+}
+
+.testSpeed:hover {
+  cursor: pointer;
+  color: #005EE3;
+}
