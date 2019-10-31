@@ -170,6 +170,11 @@ font-size: 50px;
   width: 150px;
   background-color: #f2f8ff;
 }
+
+.fa-github {
+  float: left;
+  line-height: 1.5;
+}
 /* fine jumbo */
 /* inizio innovative */
 .innovative {
@@ -186,6 +191,16 @@ font-size: 50px;
 
 .my-container {
   max-width: 100%;
+}
+
+.a-lightblue {
+  color: #4288EC;
+  text-decoration: none;
+}
+
+.a-lightblue:hover{
+  color: #4288EC;
+  text-decoration: none;
 }
 /* fine innovative */
 /* inizio deploy */
@@ -217,8 +232,10 @@ font-size: 50px;
   height: 270px;
 }
 
-.square1,.square2 h3 {
+.h3-dark {
+  font-size: 20px;
   color: #031b4e;
+  font-weight: bold;
 }
 
 .lightblue-icon {
@@ -226,6 +243,7 @@ font-size: 50px;
 }
 
 .my-font-little {
+  line-height: 1.5;
   font-size: 15px;
   color: rgba(3,27,78,.7);
 }
