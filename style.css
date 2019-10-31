@@ -357,6 +357,7 @@ font-size: 50px;
   opacity: 0.9;
 }
 /* fine getStarted */
+/* inizio footer */
 footer {
   background-color: #010E28;
   padding: 100px 0px;
@@ -405,3 +406,4 @@ footer {
 .final {
   line-height: 6.6;
 }
+/* fine footer */
