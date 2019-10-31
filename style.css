@@ -381,11 +381,27 @@ footer {
 }
 
 .footer-logo {
-  width: 50px;
+  width: 100px;
+  padding-top: 20px;
 }
 
 .copyright {
   margin-top: 50px;
   border-top: 1px solid white;
   opacity: 0.5;
+}
+
+.font-awesome {
+  display: inline-block;
+  padding: 5px;
+}
+
+.font-awesome,.footer-logo:hover {
+  opacity: 1;
+  color: white;
+  cursor: pointer;
+}
+
+.final {
+  line-height: 6.6;
 }
